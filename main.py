@@ -1,8 +1,8 @@
-from flask import Flask, render_template      
+from flask import Flask     
 
 app = Flask(__name__)
 
-@app.route("/")
+
 
 '''
 def home():
@@ -16,6 +16,6 @@ if __name__ == "__main__":
     app.run(debug=True)
 
 '''
-
+@app.route("/")
 def index():
 	return "<h1>Success of ladder</h1>"
