@@ -1,0 +1,5 @@
+forest.jfif forest
+glacier.jfif glacier
+mnt.jfif mountain
+sea.jfif sea
+street.jfif buildings

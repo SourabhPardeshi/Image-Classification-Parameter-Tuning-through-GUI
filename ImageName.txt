@@ -1,0 +1,5 @@
+forest.jfif
+glacier.jfif
+mnt.jfif
+sea.jfif
+street.jfif
