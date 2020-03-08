@@ -1,0 +1,38 @@
+/*
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+*/
+
+body{
+	background-color:black;
+}
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.uploadform {
+  max-width: 600px;
+  margin-top:100px;
+	margin-left: 350px;
+	align-content: center;
+	background-color:  #e0d8a9;
+	padding: 20px;
+	border-radius: 10px;
+	color: #2d63f0;
+}
+
+.div{
+	align-content: center;
+}
+.content{
+	padding: 100px;
+}
