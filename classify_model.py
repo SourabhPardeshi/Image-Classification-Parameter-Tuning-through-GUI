@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
+<<<<<<< HEAD
 #print("CONGO")
 import sys
 import numpy as np
@@ -10,14 +11,35 @@ d = [sys.argv[1],sys.argv[2]]
 path = d[0]+' '+d[1]+'/pictures'
 
 #print(path)
+=======
+
+# In[3]:
+
+
+from flask import Flask
+
+
+# In[8]:
+
+
+
+
+
+# In[79]:
+>>>>>>> 5ef8503f4dc51bd6223285c2e66271348d5fefa9
 
 
 def read_format_predict(directory):
     import tensorflow
     import cv2
     import numpy as np
+<<<<<<< HEAD
     import os	
 
+=======
+    import os
+   
+>>>>>>> 5ef8503f4dc51bd6223285c2e66271348d5fefa9
     model = tensorflow.keras.models.load_model('m1.h5')
     names=[]
     Images = []
@@ -58,6 +80,7 @@ def read_format_predict(directory):
             #print(j)
             if i == j[0]:
                 break
+<<<<<<< HEAD
         preds.append(j[1]) 
     '''with open('nameLabel.txt','w') as file:
         for i,j in zip(names,preds):
@@ -86,4 +109,21 @@ with open('confidence.txt','w') as file:
         file.write("\n")
 '''
 #print(ans)
+=======
+        preds.append(j[1])    
+    return list(zip(names,preds))
+
+
+# In[80]:
+
+
+ans = read_format_predict('F:/YehKiskiPhoto/unknown/pictures')
+ans
+
+
+# In[ ]:
+
+
+
+>>>>>>> 5ef8503f4dc51bd6223285c2e66271348d5fefa9
 
